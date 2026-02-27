@@ -29,7 +29,7 @@ function TodoApp() {
         {todos.map((todo) => (
           <li key={todo.id}>
             {todo.text}
-            <button onClick={() => deleteTask(todo.id)}>削除</button>
+            <button onClick={() => deleteTask(todo.id)}>削除--</button>
           </li>
         ))}
       </ul>
