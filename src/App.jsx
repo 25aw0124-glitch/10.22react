@@ -23,7 +23,7 @@ function TodoApp() {
         value={task}
         onChange={(e) => setTask(e.target.value)}
       />
-      <button onClick={addTask}>追加</button>
+      <button onClick={addTask}>追加++</button>
 
       <ul>
         {todos.map((todo) => (
